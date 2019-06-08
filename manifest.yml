@@ -1,0 +1,10 @@
+﻿---
+applications:
+- name: cloudcache-owin-example
+  path: ./cloudcache-owin-example/bin/x64/Release
+  memory: 512M
+  stack: windows2016
+  buildpacks:
+   - binary_buildpack
+  services:
+   - pcc-dev

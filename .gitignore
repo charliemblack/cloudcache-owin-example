@@ -1,0 +1,4 @@
+.vs/*
+cloudcache-owin-example/bin/*
+cloudcache-owin-example/obj/*
+packages/*
